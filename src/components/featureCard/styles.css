@@ -1,0 +1,62 @@
+.card-container {
+  width: 287px;
+  height: 557px;
+}
+.last-end {
+  display: flex;
+  justify-content: space-between;
+  background-color: #b5a16c;
+  color: white;
+  width: 287px;
+  height: 97px;
+
+  border-radius: 0px 0px 5px 5px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.last-content {
+  margin-top: 10px;
+  padding: 0px 20px 0px 20px;
+}
+.outer-container {
+  display: flex;
+
+  justify-content: space-between;
+}
+.artwork {
+  width: 155px;
+  height: 29px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 65px;
+}
+.circle-picture {
+  display: flex;
+  gap: 15px;
+}
+.Ellipse2 {
+  width: 38px;
+  height: 38px;
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 287px;
+  height: 257px;
+}
+.link2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 17px;
+  color: #666666;
+  margin-top: 10px;
+}
