@@ -5,8 +5,9 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Header from "../components/header";
 import Artist from "../pages/artist";
 import Artdetails from "../pages/details";
+import Footer from "../components/footer/footer";
 
-const Nav = () => {
+const Routess = () => {
   return (
     <>
       <BrowserRouter>
@@ -18,9 +19,10 @@ const Nav = () => {
 
           <Route path="*" element={<Navigate to="/home" />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
 };
 
-export default Nav;
+export default Routess;

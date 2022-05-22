@@ -95,9 +95,12 @@ const useStyle = makeStyles((theme) => ({
     },
   },
   root: {
-    padding: "0px 20px",
+    padding: "0px 15px",
     border: "1.5px solid black",
     borderRadius: 25,
+    [theme.breakpoints.down("sm")]: {
+      display: "none",
+    },
   },
 
   connect__Button: {
@@ -111,9 +114,10 @@ const useStyle = makeStyles((theme) => ({
   },
 
   input: {
+    padding: "2px",
     border: "none",
   },
   icon: {
-    paddingTop: 5,
+    marginTop: 8,
   },
 }));

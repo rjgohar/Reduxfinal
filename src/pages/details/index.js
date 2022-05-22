@@ -23,7 +23,10 @@ const useStyles = makeStyles((theme) => ({
   header: {
     "& .image": {
       width: "100%",
-      height: 400,
+      height: 300,
+      backgroungPosition: "center",
+      backgroundSize: "cover",
+      [theme.breakpoints.down("sm")]: {},
     },
   },
 }));

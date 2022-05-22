@@ -1,13 +1,14 @@
 import React from "react";
 import "./App.css";
-import Routes from "./routes";
+
 import { store } from "./store";
 import { Provider } from "react-redux";
+import Routess from "./routes";
 function App() {
   return (
     <div className="App">
       <Provider store={store}>
-        <Routes />
+        <Routess />
       </Provider>
     </div>
   );
